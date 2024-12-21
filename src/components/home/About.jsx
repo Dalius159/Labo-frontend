@@ -20,7 +20,7 @@ const About = () => {
                         <h1 className="mb-4">About HighTech Agency And It's Innovative IT Solutions</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
                         <p className="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
-                        <a href="" className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                        <a href="/about" className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
                     </div>
                 </div>
             </div>

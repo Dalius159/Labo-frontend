@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="container-fluid bg-primary">
             <div className="container">
                 <nav className="navbar navbar-dark navbar-expand-lg py-0">
-                    <a href="index.html" className="navbar-brand">
+                    <a href="/" className="navbar-brand">
                         <h1 className="text-white fw-bold d-block">High<span className="text-secondary">Tech</span> </h1>
                     </a>
                     <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -15,20 +15,20 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                         <div className="navbar-nav ms-auto mx-xl-auto p-0">
-                            <a href="index.html" className="nav-item nav-link">Home</a>
-                            <a href="about.html" className="nav-item nav-link">About</a>
-                            <a href="service.html" className="nav-item nav-link active">Services</a>
-                            <a href="project.html" className="nav-item nav-link">Projects</a>
+                            <a href="home" className="nav-item nav-link">Home</a>
+                            <a href="about" className="nav-item nav-link">About</a>
+                            <a href="services" className="nav-item nav-link active">Services</a>
+                            <a href="projects" className="nav-item nav-link">Projects</a>
                             <div className="nav-item dropdown">
                                 <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                 <div className="dropdown-menu rounded">
-                                    <a href="blog.html" className="dropdown-item">Our Blog</a>
-                                    <a href="team.html" className="dropdown-item">Our Team</a>
-                                    <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                                    <a href="404.html" className="dropdown-item">404 Page</a>
+                                    <a href="blog" className="dropdown-item">Our Blog</a>
+                                    <a href="team" className="dropdown-item">Our Team</a>
+                                    <a href="testimonial" className="dropdown-item">Testimonial</a>
+                                    <a href="404" className="dropdown-item">404 Page</a>
                                 </div>
                             </div>
-                            <a href="contact.html" className="nav-item nav-link">Contact</a>
+                            <a href="contact" className="nav-item nav-link">Contact</a>
                         </div>
                     </div>
                     <div className="d-none d-xl-flex flex-shirink-0">

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ServiceComponent = () => {
   return (
@@ -18,7 +19,7 @@ const ServiceComponent = () => {
                                     <i className="fa fa-code fa-7x mb-4 text-primary"></i>
                                     <h4 className="mb-3">Web Design</h4>
                                     <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                    <Link to="/services/web-design" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</Link>
                                 </div>
                             </div>
                         </div>
@@ -30,7 +31,7 @@ const ServiceComponent = () => {
                                     <i className="fa fa-file-code fa-7x mb-4 text-primary"></i>
                                     <h4 className="mb-3">Web Development</h4>
                                     <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                    <Link to="/services/web-development" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</Link>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +43,7 @@ const ServiceComponent = () => {
                                     <i className="fa fa-external-link-alt fa-7x mb-4 text-primary"></i>
                                     <h4 className="mb-3">UI/UX Design</h4>
                                     <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                    <Link to="/services/uiux-design" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</Link>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +55,7 @@ const ServiceComponent = () => {
                                     <i className="fas fa-user-secret fa-7x mb-4 text-primary"></i>
                                     <h4 className="mb-3">Web Cecurity</h4>
                                     <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                    <Link to="/services/web-security" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</Link>
                                 </div>
                                 
                             </div>
@@ -67,7 +68,7 @@ const ServiceComponent = () => {
                                     <i className="fa fa-envelope-open fa-7x mb-4 text-primary"></i>
                                     <h4 className="mb-3">Digital Marketing</h4>
                                     <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                    <Link to="/services/digital-marketing" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</Link>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +80,7 @@ const ServiceComponent = () => {
                                     <i className="fas fa-laptop fa-7x mb-4 text-primary"></i>
                                     <h4 className="mb-3">Programming</h4>
                                     <p className="mb-4">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt.</p>
-                                    <a href="" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</a>
+                                    <Link to="/services/programming" className="btn btn-secondary text-white px-5 py-3 rounded-pill">Read More</Link>
                                 </div>
                             </div>
                         </div>

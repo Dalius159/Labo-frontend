@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Header, Footer, Fact } from '../../components/common';
-import { Navbar, ServiceComponent, PageHeader } from '../../components/service'
+import { Navbar, MemberList, PageHeader } from '../../components/service'
 
 const WebDesign = () => {
   return (
@@ -11,6 +11,7 @@ const WebDesign = () => {
         <Navbar />
         <PageHeader />
         <Fact />
+        <MemberList service_name={"Web Design"} />
 
         <Footer />
     </div>

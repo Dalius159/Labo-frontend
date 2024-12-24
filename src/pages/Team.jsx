@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Header, Footer, Fact } from '../components/common';
-import { Navbar, TeamComponent, PageHeader } from '../components/team'
+import { Navbar, MemberList, TeamComponent, PageHeader } from '../components/team'
 
 const Team = () => {
   return (
@@ -11,7 +11,7 @@ const Team = () => {
       <Navbar />
       <PageHeader />
       <Fact />
-      <TeamComponent />
+      <MemberList />
 
       <Footer />
     </div>

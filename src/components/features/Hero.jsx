@@ -10,7 +10,7 @@ const Hero = () => {
                         <h1 className="display-4 text-white mb-4 animated slideInRight">Features</h1>
                         <nav aria-label="breadcrumb">
                             <ol className="breadcrumb justify-content-center justify-content-lg-start mb-0">
-                                <li className="breadcrumb-item"><a className="text-white" href="#">Home</a></li>
+                                <li className="breadcrumb-item"><a className="text-white" href="/home">Home</a></li>
                                 <li className="breadcrumb-item"><a className="text-white" href="#">Pages</a></li>
                                 <li className="breadcrumb-item text-white active" aria-current="page">Features</li>
                             </ol>

@@ -13,7 +13,7 @@ const Case = () => {
                     <div className="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                         <div className="case-item position-relative overflow-hidden rounded mb-2">
                             <img className="img-fluid" src="/src/assets/img/project-1.jpg" alt="" />
-                            <a className="case-overlay text-decoration-none" href="">
+                            <a className="case-overlay text-decoration-none" href="/projects">
                                 <small>Robotic Automation</small>
                                 <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
                                 </h5>
@@ -24,7 +24,7 @@ const Case = () => {
                     <div className="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
                         <div className="case-item position-relative overflow-hidden rounded mb-2">
                             <img className="img-fluid" src="/src/assets/img/project-2.jpg" alt="" />
-                            <a className="case-overlay text-decoration-none" href="">
+                            <a className="case-overlay text-decoration-none" href="/projects">
                                 <small>Machine learning</small>
                                 <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
                                 </h5>
@@ -35,7 +35,7 @@ const Case = () => {
                     <div className="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
                         <div className="case-item position-relative overflow-hidden rounded mb-2">
                             <img className="img-fluid" src="/src/assets/img/project-3.jpg" alt="" />
-                            <a className="case-overlay text-decoration-none" href="">
+                            <a className="case-overlay text-decoration-none" href="/projects">
                                 <small>Predictive Analysis</small>
                                 <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
                                 </h5>

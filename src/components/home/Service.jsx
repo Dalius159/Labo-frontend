@@ -26,7 +26,7 @@ const Service = () => {
                                             <h5 className="mb-3">Robotic Automation</h5>
                                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
                                                 diam sed stet lorem.</p>
-                                            <a className="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                            <a className="btn px-3 mt-auto mx-auto" href="/services">Read More</a>
                                         </div>
                                     </div>
                                     <div className="col-12 wow fadeIn" data-wow-delay="0.5s">
@@ -37,7 +37,7 @@ const Service = () => {
                                             <h5 className="mb-3">Machine learning</h5>
                                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
                                                 diam sed stet lorem.</p>
-                                            <a className="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                            <a className="btn px-3 mt-auto mx-auto" href="/services">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ const Service = () => {
                                             <h5 className="mb-3">Education & Science</h5>
                                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
                                                 diam sed stet lorem.</p>
-                                            <a className="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                            <a className="btn px-3 mt-auto mx-auto" href="/services">Read More</a>
                                         </div>
                                     </div>
                                     <div className="col-12 wow fadeIn" data-wow-delay="0.7s">
@@ -63,7 +63,7 @@ const Service = () => {
                                             <h5 className="mb-3">Predictive Analysis</h5>
                                             <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
                                                 diam sed stet lorem.</p>
-                                            <a className="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                            <a className="btn px-3 mt-auto mx-auto" href="/services">Read More</a>
                                         </div>
                                     </div>
                                 </div>

@@ -23,16 +23,10 @@ const Navbar = () => {
                             <NavLink to="/about" className={({isActive}) => isActive ? "nav-item nav-link active" : "nav-item nav-link"}>About</NavLink>
                             <NavLink to="/services" className={({isActive}) => isActive ? "nav-item nav-link active" : "nav-item nav-link"}>Services</NavLink>
                             <NavLink to="/projects" className={({isActive}) => isActive ? "nav-item nav-link active" : "nav-item nav-link"}>Projects</NavLink>
-                            <div className="nav-item dropdown">
-                                <NavLink to="/pages" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</NavLink>
-                                <div className="dropdown-menu bg-light mt-2">
-                                    <NavLink to="/features" className="dropdown-item">Features</NavLink>
-                                    <NavLink to="/team" className="dropdown-item">Our Team</NavLink>
-                                    <NavLink to="/faqs" className="dropdown-item">FAQs</NavLink>
-                                    <NavLink to="/testimonial" className="dropdown-item">Testimonial</NavLink>
-                                    <NavLink to="/404" className="dropdown-item">404 Page</NavLink>
-                                </div>
-                            </div>
+                            <NavLink to="/features" className={({isActive}) => isActive ? "nav-item nav-link active" : "nav-item nav-link"}>Features</NavLink>
+                            <NavLink to="/team" className={({isActive}) => isActive ? "nav-item nav-link active" : "nav-item nav-link"}>Our Team</NavLink>
+                            <NavLink to="/faqs" className={({isActive}) => isActive ? "nav-item nav-link active" : "nav-item nav-link"}>FAQs</NavLink>
+                            <NavLink to="/testimonial" className={({isActive}) => isActive ? "nav-item nav-link active" : "nav-item nav-link"}>Testimonial</NavLink>
                             <NavLink to="/contact" className={({isActive}) => isActive ? "nav-item nav-link active" : "nav-item nav-link"}>Contact</NavLink>
                         </div>
                         <button type="button" className="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"

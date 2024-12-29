@@ -30,7 +30,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="d-flex align-items-center mt-4">
-                            <a className="btn btn-primary rounded-pill px-4 me-3" href="">Read More</a>
+                            <a className="btn btn-primary rounded-pill px-4 me-3" href="/about">Read More</a>
                             <a className="btn btn-outline-primary btn-square me-3" href=""><i className="fab fa-facebook-f"></i></a>
                             <a className="btn btn-outline-primary btn-square me-3" href=""><i className="fab fa-twitter"></i></a>
                             <a className="btn btn-outline-primary btn-square me-3" href=""><i className="fab fa-instagram"></i></a>

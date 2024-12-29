@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Navbar, FullScreenSearch, Newsletter, Footer } from '../components/common'
-import { Hero, TeamComponent } from '../components/team'
+import { Hero, TeamComponent, Member } from '../components/team'
 
 const OurTeam = () => {
+
+  const [showTeam, setShowTeam] = useState(false);
+
+  const handleReadMore = () => {
+    setShowTeam(true);
+  };
+
   return (
     <div>
       <Navbar />
       <Hero />
       <FullScreenSearch />
 
-      <TeamComponent />
+      {showTeam ? (<Member />) : (<TeamComponent onReadMore={handleReadMore} />)}
 
       <Newsletter />
       <Footer />

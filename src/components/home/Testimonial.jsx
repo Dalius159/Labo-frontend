@@ -3,103 +3,60 @@ import React from 'react'
 const Testimonial = () => {
   return (
     <div>
-        {/* <!-- Testimonial Start --> */}
-        <div className="container-fluid testimonial py-5 mb-5">
-            <div className="container">
-                <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{maxWidth: '600px'}}>
-                    <h5 className="text-primary">Our Testimonial</h5>
-                    <h1>Our Client Saying!</h1>
-                </div>
-                <div className="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
-                    <div className="testimonial-item border p-4">
-                        <div className="d-flex align-items-center">
-                            <div className="">
-                                <img src="/assets/img/testimonial-1.jpg" alt=""/>
-                            </div>
-                            <div className="ms-4">
-                                <h4 className="text-secondary">Client Name</h4>
-                                <p className="m-0 pb-3">Profession</p>
-                                <div className="d-flex pe-5">
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="border-top mt-4 pt-3">
-                            <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                        </div>
+        <div className="container-xxl py-5">
+            <div className="container py-5">
+                <div className="row g-5">
+                    <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                        <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Testimonial</div>
+                        <h1 className="mb-4">What Say Our Clients!</h1>
+                        <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                            amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                            clita duo justo et tempor eirmod magna dolore erat amet</p>
+                        <a className="btn btn-primary rounded-pill px-4" href="">Read More</a>
                     </div>
-                    <div className="testimonial-item border p-4">
-                        <div className=" d-flex align-items-center">
-                            <div className="">
-                                <img src="/assets/img/testimonial-2.jpg" alt=""/>
-                            </div>
-                            <div className="ms-4">
-                                <h4 className="text-secondary">Client Name</h4>
-                                <p className="m-0 pb-3">Profession</p>
-                                <div className="d-flex pe-5">
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
+                    <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                        <div className="owl-carousel testimonial-carousel border-start border-primary">
+                            <div className="testimonial-item ps-5">
+                                <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                                <p className="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                                <div className="d-flex align-items-center">
+                                    <img className="img-fluid flex-shrink-0 rounded-circle" src="/src/assets/img/testimonial-1.jpg"
+                                        style={{width: '60px', height: '60px'}} />
+                                    <div className="ps-3">
+                                        <h5 className="mb-1">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="border-top mt-4 pt-3">
-                            <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                        </div>
-                    </div>
-                    <div className="testimonial-item border p-4">
-                        <div className=" d-flex align-items-center">
-                            <div className="">
-                                <img src="/assets/img/testimonial-3.jpg" alt=""/>
-                            </div>
-                            <div className="ms-4">
-                                <h4 className="text-secondary">Client Name</h4>
-                                <p className="m-0 pb-3">Profession</p>
-                                <div className="d-flex pe-5">
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
+                            <div className="testimonial-item ps-5">
+                                <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                                <p className="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                                <div className="d-flex align-items-center">
+                                    <img className="img-fluid flex-shrink-0 rounded-circle" src="/src/assets/img/testimonial-2.jpg"
+                                        style={{width: '60px', height: '60px'}} />
+                                    <div className="ps-3">
+                                        <h5 className="mb-1">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="border-top mt-4 pt-3">
-                            <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                        </div>
-                    </div>
-                    <div className="testimonial-item border p-4">
-                        <div className=" d-flex align-items-center">
-                            <div className="">
-                                <img src="/assets/img/testimonial-4.jpg" alt=""/>
-                            </div>
-                            <div className="ms-4">
-                                <h4 className="text-secondary">Client Name</h4>
-                                <p className="m-0 pb-3">Profession</p>
-                                <div className="d-flex pe-5">
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
-                                    <i className="fas fa-star me-1 text-primary"></i>
+                            <div className="testimonial-item ps-5">
+                                <i className="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                                <p className="fs-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                                <div className="d-flex align-items-center">
+                                    <img className="img-fluid flex-shrink-0 rounded-circle" src="/src/assets/img/testimonial-3.jpg"
+                                        style={{width: '60px', height: '60px'}} />
+                                    <div className="ps-3">
+                                        <h5 className="mb-1">Client Name</h5>
+                                        <span>Profession</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="border-top mt-4 pt-3">
-                            <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        {/* <!-- Testimonial End --> */}
     </div>
   )
 }

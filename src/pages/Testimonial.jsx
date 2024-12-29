@@ -1,18 +1,17 @@
 import React from 'react'
-
-import { Header, Footer, Fact } from '../components/common';
-import { Navbar, TestimonialComponent, PageHeader } from '../components/testimonial'
+import { Navbar, FullScreenSearch, Newsletter, Footer } from '../components/common'
+import { Hero, TestimonialComponent } from '../components/testimonial'
 
 const Testimonial = () => {
   return (
     <div>
-      <Header />
-
       <Navbar />
-      <PageHeader />
-      <Fact />
+      <Hero />
+      <FullScreenSearch />
+
       <TestimonialComponent />
 
+      <Newsletter />
       <Footer />
     </div>
   )

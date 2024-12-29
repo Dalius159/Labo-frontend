@@ -3,29 +3,43 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-        {/* <!-- About Start --> */}
-        <div className="container-fluid py-5 my-5">
-            <div className="container pt-5">
-                <div className="row g-5">
-                    <div className="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
-                        <div className="h-100 position-relative">
-                            <img src="/assets/img/about-1.jpg" className="img-fluid w-75 rounded" alt="" style={{marginBottom: '25%'}}/>
-                            <div className="position-absolute w-75" style={{top: '25%', left: '25%'}}>
-                                <img src="/assets/img/about-2.jpg" className="img-fluid w-100 rounded" alt=""/>
-                            </div>
+        <div className="container-fluid py-5">
+            <div className="container">
+                <div className="row g-5 align-items-center">
+                    <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div className="about-img">
+                            <img className="img-fluid" src="/src/assets/img/about-img.jpg" />
                         </div>
                     </div>
-                    <div className="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
-                        <h5 className="text-primary">About Us</h5>
-                        <h1 className="mb-4">About HighTech Agency And It's Innovative IT Solutions</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
-                        <p className="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
-                        <a href="/about" className="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                    <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">About Us</div>
+                        <h1 className="mb-4">We Make Your Business Smarter with Artificial Intelligence</h1>
+                        <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                            amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                            clita duo justo et tempor eirmod magna dolore erat amet</p>
+                        <p className="mb-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no
+                            labore lorem sit. Sanctus clita duo justo et tempor.</p>
+                        <div className="row g-3">
+                            <div className="col-sm-6">
+                                <h6 className="mb-3"><i className="fa fa-check text-primary me-2"></i>Award Winning</h6>
+                                <h6 className="mb-0"><i className="fa fa-check text-primary me-2"></i>Professional Staff</h6>
+                            </div>
+                            <div className="col-sm-6">
+                                <h6 className="mb-3"><i className="fa fa-check text-primary me-2"></i>24/7 Support</h6>
+                                <h6 className="mb-0"><i className="fa fa-check text-primary me-2"></i>Fair Prices</h6>
+                            </div>
+                        </div>
+                        <div className="d-flex align-items-center mt-4">
+                            <a className="btn btn-primary rounded-pill px-4 me-3" href="">Read More</a>
+                            <a className="btn btn-outline-primary btn-square me-3" href=""><i className="fab fa-facebook-f"></i></a>
+                            <a className="btn btn-outline-primary btn-square me-3" href=""><i className="fab fa-twitter"></i></a>
+                            <a className="btn btn-outline-primary btn-square me-3" href=""><i className="fab fa-instagram"></i></a>
+                            <a className="btn btn-outline-primary btn-square" href=""><i className="fab fa-linkedin-in"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        {/* <!-- About End --> */}
     </div>
   )
 }

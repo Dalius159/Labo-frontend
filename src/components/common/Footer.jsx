@@ -3,67 +3,71 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      {/* <!-- Footer Start --> */}
-         <div className="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
-            <div className="container pt-5 pb-4">
+        <div className="container-fluid bg-dark text-white-50 footer pt-5">
+            <div className="container py-5">
                 <div className="row g-5">
-                    <div className="col-lg-3 col-md-6">
-                        <a href="index.html">
-                            <h1 className="text-white fw-bold d-block">High<span className="text-secondary">Tech</span> </h1>
+                    <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                        <a href="index.html" className="d-inline-block mb-3">
+                            <h1 className="text-white">AI<span className="text-primary">.</span>Tech</h1>
                         </a>
-                        <p className="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
-                        <div className="d-flex hightech-link">
-                            <a href="" className="btn-light nav-fill btn btn-square rounded-circle me-2"><i className="fab fa-facebook-f text-primary"></i></a>
-                            <a href="" className="btn-light nav-fill btn btn-square rounded-circle me-2"><i className="fab fa-twitter text-primary"></i></a>
-                            <a href="" className="btn-light nav-fill btn btn-square rounded-circle me-2"><i className="fab fa-instagram text-primary"></i></a>
-                            <a href="" className="btn-light nav-fill btn btn-square rounded-circle me-0"><i className="fab fa-linkedin-in text-primary"></i></a>
+                        <p className="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
+                            amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                            clita duo justo et tempor</p>
+                    </div>
+                    <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                        <h5 className="text-white mb-4">Get In Touch</h5>
+                        <p><i className="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                        <p><i className="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                        <p><i className="fa fa-envelope me-3"></i>info@example.com</p>
+                        <div className="d-flex pt-2">
+                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
+                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
+                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-youtube"></i></a>
+                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-instagram"></i></a>
+                            <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6">
-                        <a href="#" className="h3 text-secondary">Short Link</a>
-                        <div className="mt-4 d-flex flex-column short-link">
-                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>About us</a>
-                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Contact us</a>
-                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Our Services</a>
-                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Our Projects</a>
-                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Latest Blog</a>
-                        </div>
+                    <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                        <h5 className="text-white mb-4">Popular Link</h5>
+                        <a className="btn btn-link" href="">About Us</a>
+                        <a className="btn btn-link" href="">Contact Us</a>
+                        <a className="btn btn-link" href="">Privacy Policy</a>
+                        <a className="btn btn-link" href="">Terms & Condition</a>
+                        <a className="btn btn-link" href="">Career</a>
                     </div>
-                    <div className="col-lg-3 col-md-6">
-                        <a href="#" className="h3 text-secondary">Help Link</a>
-                        <div className="mt-4 d-flex flex-column help-link">
-                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Terms Of use</a>
-                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Privacy Policy</a>
-                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Helps</a>
-                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>FQAs</a>
-                            <a href="" className="mb-2 text-white"><i className="fas fa-angle-right text-secondary me-2"></i>Contact</a>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
-                        <a href="#" className="h3 text-secondary">Contact Us</a>
-                        <div className="text-white mt-4 d-flex flex-column contact-link">
-                            <a href="#" className="pb-3 text-light border-bottom border-primary"><i className="fas fa-map-marker-alt text-secondary me-2"></i> 123 Street, New York, USA</a>
-                            <a href="#" className="py-3 text-light border-bottom border-primary"><i className="fas fa-phone-alt text-secondary me-2"></i> +123 456 7890</a>
-                            <a href="#" className="py-3 text-light border-bottom border-primary"><i className="fas fa-envelope text-secondary me-2"></i> info@exmple.con</a>
-                        </div>
+                    <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                        <h5 className="text-white mb-4">Our Services</h5>
+                        <a className="btn btn-link" href="">Robotic Automation</a>
+                        <a className="btn btn-link" href="">Machine learning</a>
+                        <a className="btn btn-link" href="">Predictive Analysis</a>
+                        <a className="btn btn-link" href="">Data Science</a>
+                        <a className="btn btn-link" href="">Robot Technology</a>
                     </div>
                 </div>
-                <hr className="text-light mt-5 mb-4"/>
-                <div className="row">
-                    <div className="col-md-6 text-center text-md-start">
-                        <span className="text-light"><a href="#" className="text-secondary"><i className="fas fa-copyright text-secondary me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div className="col-md-6 text-center text-md-end">
-                        {/* <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***--> */}
-                        <span className="text-light">Designed By<a href="https://htmlcodex.com" className="text-secondary">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a></span>
+            </div>
+            <div className="container wow fadeIn" data-wow-delay="0.1s">
+                <div className="copyright">
+                    <div className="row">
+                        <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a className="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                            Designed By <a className="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a className="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+                        </div>
+                        <div className="col-md-6 text-center text-md-end">
+                            <div className="footer-menu">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FAQs</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        {/* <!-- Footer End --> */}
 
         {/* <!-- Back to Top --> */}
-        <a href="#" className="btn btn-secondary btn-square rounded-circle back-to-top"><i className="fa fa-arrow-up text-white"></i></a>
+        <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i className="bi bi-arrow-up"></i></a>
     </div>
   )
 }

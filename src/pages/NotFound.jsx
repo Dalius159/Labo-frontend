@@ -1,19 +1,18 @@
 import React from 'react'
-
-import { Header, Footer, Fact } from '../components/common';
-import { Navbar, NotFound404, PageHeader } from '../components/404'
+import { Navbar, FullScreenSearch, Newsletter, Footer } from '../components/common'
+import { Hero, NotFoundComponent } from '../components/404'
 
 const NotFound = () => {
   return (
     <div>
-        <Header />
-        
-        <Navbar />
-        <PageHeader />
-        <Fact />
-        <NotFound404 />
+      <Navbar />
+      <Hero />
+      <FullScreenSearch />
 
-        <Footer />
+      <NotFoundComponent />
+
+      <Newsletter />
+      <Footer />
     </div>
   )
 }

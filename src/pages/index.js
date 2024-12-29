@@ -1,0 +1,10 @@
+export { default as NotFound } from './NotFound';
+export { default as About } from './About';
+export { default as Contact } from './Contact';
+export { default as FAQs } from './FAQs';
+export { default as Features } from './Features';
+export { default as Home } from './Home';
+export { default as OurTeam } from './OurTeam';
+export { default as Projects } from './Projects';
+export { default as Services } from './Services';
+export { default as Testimonial } from './Testimonial';

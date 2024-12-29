@@ -1,18 +1,17 @@
 import React from 'react'
-
-import { Header, Footer, Fact } from '../components/common';
-import { Navbar, ContactComponent, PageHeader } from '../components/contact'
+import { Navbar, FullScreenSearch, Newsletter, Footer } from '../components/common'
+import { Hero, ContactComponent } from '../components/contact'
 
 const Contact = () => {
   return (
     <div>
-      <Header />
-
       <Navbar />
-      <PageHeader />
-      <Fact />
-      <ContactComponent />
+      <Hero />
+      <FullScreenSearch />
 
+      <ContactComponent />
+      
+      <Newsletter />
       <Footer />
     </div>
   )

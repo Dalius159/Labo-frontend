@@ -9,9 +9,12 @@ const ServiceComponent = () => {
                     <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
                         <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
                         <h1 className="mb-4">Our Excellent AI Solutions for Your Business</h1>
-                        <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                            amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                            clita duo justo et tempor eirmod magna dolore erat amet</p>
+                        <p className="mb-4">Unlock the power of Artificial Intelligence with our tailored solutions designed
+                             to optimize your business operations. From automating routine tasks to providing actionable insights through 
+                             data analysis, our AI tools enhance productivity, improve decision-making, and create personalized customer 
+                             experiences. Whether it's AI-driven chatbots, predictive analytics, or intelligent automation, we help your 
+                             business stay ahead of the competition and achieve sustainable growth. Let us transform your business with 
+                             cutting-edge AI solutions.</p>
                         <a className="btn btn-primary rounded-pill px-4" href="">Read More</a>
                     </div>
                     <div className="col-lg-7">
@@ -24,8 +27,7 @@ const ServiceComponent = () => {
                                                 <i className="fa fa-home fa-2x"></i>
                                             </div>
                                             <h5 className="mb-3">Robotic Automation</h5>
-                                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                                diam sed stet lorem.</p>
+                                            <p>Streamline tasks, reduce errors, and boost efficiency with our robotic automation solutions.</p>
                                             <a className="btn px-3 mt-auto mx-auto" href="">Read More</a>
                                         </div>
                                     </div>
@@ -35,8 +37,7 @@ const ServiceComponent = () => {
                                                 <i className="fa fa-home fa-2x"></i>
                                             </div>
                                             <h5 className="mb-3">Machine learning</h5>
-                                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                                diam sed stet lorem.</p>
+                                            <p>Unlock insights, improve decision-making, and automate processes with our machine learning solutions.</p>
                                             <a className="btn px-3 mt-auto mx-auto" href="">Read More</a>
                                         </div>
                                     </div>
@@ -50,8 +51,8 @@ const ServiceComponent = () => {
                                                 <i className="fa fa-home fa-2x"></i>
                                             </div>
                                             <h5 className="mb-3">Education & Science</h5>
-                                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                                diam sed stet lorem.</p>
+                                            <p>Revolutionize learning and research with AI-driven solutions that enhance personalized education, 
+                                                streamline research, and accelerate discoveries.</p>
                                             <a className="btn px-3 mt-auto mx-auto" href="">Read More</a>
                                         </div>
                                     </div>
@@ -61,8 +62,8 @@ const ServiceComponent = () => {
                                                 <i className="fa fa-home fa-2x"></i>
                                             </div>
                                             <h5 className="mb-3">Predictive Analysis</h5>
-                                            <p>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet
-                                                diam sed stet lorem.</p>
+                                            <p>Harness the power of AI to forecast trends, optimize decisions, and mitigate risks by analyzing 
+                                                data patterns and predicting future outcomes.</p>
                                             <a className="btn px-3 mt-auto mx-auto" href="">Read More</a>
                                         </div>
                                     </div>

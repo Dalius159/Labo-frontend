@@ -9,9 +9,8 @@ const Testimonial = () => {
                     <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
                         <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Testimonial</div>
                         <h1 className="mb-4">What Say Our Clients!</h1>
-                        <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                            amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                            clita duo justo et tempor eirmod magna dolore erat amet</p>
+                        <p className="mb-4">"Our clients love the results! From innovation to seamless implementation, 
+                            their experiences have been nothing short of excellent."</p>
                         <a className="btn btn-primary rounded-pill px-4" href="/testimonial">Read More</a>
                     </div>
                     <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">

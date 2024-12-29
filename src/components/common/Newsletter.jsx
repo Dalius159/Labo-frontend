@@ -18,7 +18,7 @@ const Newsletter = () => {
                             <button type="button" className="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
                                     className="fa fa-paper-plane text-primary fs-4"></i></button>
                         </div>
-                        <small className="text-white-50">Diam sed sed dolor stet amet eirmod</small>
+                        <small className="text-white-50">Stay updated with the latest news and insights.</small>
                     </div>
                 </div>
             </div>

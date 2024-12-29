@@ -16,13 +16,13 @@ const FAQs = () => {
                                 <h2 className="accordion-header" id="headingOne">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        How to build a website?
+                                        What is AI?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionFAQ1">
                                     <div className="accordion-body">
-                                        Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                        AI refers to the simulation of human intelligence in machines that are programmed to think and learn.
                                     </div>
                                 </div>
                             </div>
@@ -30,13 +30,13 @@ const FAQs = () => {
                                 <h2 className="accordion-header" id="headingTwo">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        How long will it take to get a new website?
+                                        How does machine learning work? 
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionFAQ1">
                                     <div className="accordion-body">
-                                        Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                        Machine learning uses algorithms to identify patterns in data and improve automatically through experience.
                                     </div>
                                 </div>
                             </div>
@@ -44,13 +44,13 @@ const FAQs = () => {
                                 <h2 className="accordion-header" id="headingThree">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Do you only create HTML websites?
+                                        What is robotic automation?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
                                     data-bs-parent="#accordionFAQ1">
                                     <div className="accordion-body">
-                                        Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                        Robotic automation uses robots or software to automate repetitive tasks, improving efficiency and reducing human error.
                                     </div>
                                 </div>
                             </div>
@@ -58,13 +58,13 @@ const FAQs = () => {
                                 <h2 className="accordion-header" id="headingFour">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                        Will my website be mobile-friendly?
+                                        How can AI benefit my business? 
                                     </button>
                                 </h2>
                                 <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionFAQ1">
                                     <div className="accordion-body">
-                                        Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                        AI can enhance decision-making, optimize operations, and improve customer experiences, leading to increased efficiency and growth.
                                     </div>
                                 </div>
                             </div>
@@ -76,13 +76,13 @@ const FAQs = () => {
                                 <h2 className="accordion-header" id="headingFive">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                        Will you maintain my site for me?
+                                        What industries use AI?
                                     </button>
                                 </h2>
                                 <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionFAQ2">
                                     <div className="accordion-body">
-                                        Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                        AI is widely used in industries such as healthcare, finance, manufacturing, and retail for tasks like data analysis, automation, and decision support.
                                     </div>
                                 </div>
                             </div>
@@ -90,13 +90,13 @@ const FAQs = () => {
                                 <h2 className="accordion-header" id="headingSix">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                        I’m on a strict budget. Do you have any low cost options?
+                                        What is predictive analysis?
                                     </button>
                                 </h2>
                                 <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionFAQ2">
                                     <div className="accordion-body">
-                                        Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                        Predictive analysis uses historical data and machine learning to forecast future outcomes and trends.
                                     </div>
                                 </div>
                             </div>
@@ -104,13 +104,13 @@ const FAQs = () => {
                                 <h2 className="accordion-header" id="headingSeven">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                        Will you maintain my site for me?
+                                        How secure is AI?
                                     </button>
                                 </h2>
                                 <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven"
                                     data-bs-parent="#accordionFAQ2">
                                     <div className="accordion-body">
-                                        Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                        AI security involves protecting systems from malicious use and ensuring that AI decisions are transparent and unbiased.
                                     </div>
                                 </div>
                             </div>
@@ -118,13 +118,13 @@ const FAQs = () => {
                                 <h2 className="accordion-header" id="headingEight">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                        I’m on a strict budget. Do you have any low cost options?
+                                        Is AI expensive to implement? 
                                     </button>
                                 </h2>
                                 <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight"
                                     data-bs-parent="#accordionFAQ2">
                                     <div className="accordion-body">
-                                        Dolor nonumy tempor elitr et rebum ipsum sit duo duo. Diam sed sed magna et magna diam aliquyam amet dolore ipsum erat duo. Sit rebum magna duo labore no diam.
+                                        The cost of AI implementation varies, but businesses can start with affordable solutions and scale as needed.
                                     </div>
                                 </div>
                             </div>

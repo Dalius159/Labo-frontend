@@ -12,7 +12,7 @@ const Team = () => {
                         <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
                             amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
                             clita duo justo et tempor eirmod magna dolore erat amet</p>
-                        <a className="btn btn-primary rounded-pill px-4" href="">Read More</a>
+                        <a className="btn btn-primary rounded-pill px-4" href="/team">Read More</a>
                     </div>
                     <div className="col-lg-7">
                         <div className="row g-4">

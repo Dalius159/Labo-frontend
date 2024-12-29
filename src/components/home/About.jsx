@@ -14,11 +14,10 @@ const About = () => {
                     <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">About Us</div>
                         <h1 className="mb-4">We Make Your Business Smarter with Artificial Intelligence</h1>
-                        <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                            amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                            clita duo justo et tempor eirmod magna dolore erat amet</p>
-                        <p className="mb-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no
-                            labore lorem sit. Sanctus clita duo justo et tempor.</p>
+                        <p className="mb-4">Artificial Intelligence (AI) is transforming businesses by improving efficiency, decision-making, 
+                            and customer experience. By automating repetitive tasks, analyzing large data sets, and personalizing interactions, 
+                            AI helps companies boost productivity and profitability. It also enables businesses to stay competitive by offering 
+                            data-driven insights and innovative solutions.</p>
                         <div className="row g-3">
                             <div className="col-sm-6">
                                 <h6 className="mb-3"><i className="fa fa-check text-primary me-2"></i>Award Winning</h6>

@@ -15,7 +15,7 @@ const Case = () => {
                             <img className="img-fluid" src="/src/assets/img/project-1.jpg" alt="" />
                             <a className="case-overlay text-decoration-none" href="">
                                 <small>Robotic Automation</small>
-                                <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                                <h5 className="lh-base text-white mb-3">See how robotic automation drives efficiency and innovation.
                                 </h5>
                                 <span className="btn btn-square btn-primary"><i className="fa fa-arrow-right"></i></span>
                             </a>
@@ -26,7 +26,7 @@ const Case = () => {
                             <img className="img-fluid" src="/src/assets/img/project-2.jpg" alt="" />
                             <a className="case-overlay text-decoration-none" href="">
                                 <small>Machine learning</small>
-                                <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                                <h5 className="lh-base text-white mb-3">See how machine learning drives business innovation.
                                 </h5>
                                 <span className="btn btn-square btn-primary"><i className="fa fa-arrow-right"></i></span>
                             </a>
@@ -37,7 +37,7 @@ const Case = () => {
                             <img className="img-fluid" src="/src/assets/img/project-3.jpg" alt="" />
                             <a className="case-overlay text-decoration-none" href="">
                                 <small>Predictive Analysis</small>
-                                <h5 className="lh-base text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita
+                                <h5 className="lh-base text-white mb-3">Discover how predictive analysis shapes business strategies.
                                 </h5>
                                 <span className="btn btn-square btn-primary"><i className="fa fa-arrow-right"></i></span>
                             </a>

@@ -9,9 +9,10 @@ const Team = () => {
                     <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
                         <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Team</div>
                         <h1 className="mb-4">Meet Our Experienced Team Members</h1>
-                        <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam
-                            amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
-                            clita duo justo et tempor eirmod magna dolore erat amet</p>
+                        <p className="mb-4">Our team consists of highly skilled professionals with expertise in AI, machine learning, 
+                            robotic automation, and more. Together, we work towards providing innovative solutions that drive success for 
+                            your business. Each member brings unique knowledge and experience, ensuring that we deliver the best results 
+                            for your needs.</p>
                         <a className="btn btn-primary rounded-pill px-4" href="/team">Read More</a>
                     </div>
                     <div className="col-lg-7">
